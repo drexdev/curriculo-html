@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 200px;
+
+    background-color: #1d2939;
+
+    display: flex;
+    justify-content: left; /* Alinhar ao centro */
+    align-items: center;
+    
+    padding: 25px 105px;
+
+    text-align: left;
+    color: white;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%; /* Arrendodar a imagem */
+
+    border: 7px solid white;
+}
+
+.info {
+    margin-left: 25px;
+}
+
+.info .name {
+    font-size: 25px;
+}
+
+.info > div:first-child {
+    margin-bottom: 15px;
+}
+
+main {
+    margin-top: 200px;
+    padding: 25px 105px;
+}
+
+section {
+    margin-top: 20px;
+    color: #1E1E1E;
+}
+
+section .title {
+    background-color: #bbbbbb;
+    padding: 15px 30px;
+
+    width: max-content;
+
+    text-transform: uppercase;
+    font-weight: 600; 
+
+    font-size: 17px;
+    
+    margin-bottom: 25px;
+}
+
+section .border-topic {
+    padding: 10px 15px;
+    border-left: 1px solid #1e1e1e;
+}
+
+.experiences .name, .experiences .time {
+    font-weight: 500;
+}
+
+.experiences .list {
+    margin-left: 25px;
+    margin-top: 5px;
+}
